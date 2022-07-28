@@ -1,10 +1,21 @@
 
+/* css for navbar  */
+
+.eduinside-navbar-brand {
+    margin: 0;
+}
+
 .eduinside-navbar {
+    background-color: rgb(255, 131, 131);
+    padding: 0;
+}
+
+.eduinside-n {
     background-color: rgb(114, 255, 173);
 }
 
 
-.eduinside-navbar-nav {
+.eduinside-navbar-items {
     display: flex;
     justify-content: center;
     column-gap: 30px;
@@ -12,7 +23,108 @@
 }
 
 
-.eduinside-navbar-nav li {
+.eduinside-navbar-items li {
     font-size: larger;
     background-color: rgb(198, 137, 255);
 }
+
+
+/* css for slider */
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.6;
+}
+
+.eduinside-title h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.eduinside-title p {
+    font-size: 18px;
+    margin: 20px 120px;
+}
+
+
+.eduinside-slider-btn {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px 30px;
+    background-color: #289BDE;
+    color: white;
+}
+
+
+
+
+
+/* ----------- Media query ------------ */
+/* Large devices */
+@media only screen and (min-width: 769px) {
+    .container{
+        width: 100%;
+    }
+
+
+}
+
+
+
+/* Medium devices */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+
+    .eduinside-title h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .eduinside-title p {
+        font-size: 16px;
+        margin: 10px 20px;
+    }
+
+    .eduinside-slider-btn {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 8px 20px;
+    }
+}
+
+
+/* Small Devices */
+ @media only screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+
+    .eduinside-title h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .eduinside-title p {
+        font-size: 12px;
+        margin: 5px 25px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+
+    .eduinside-slider-btn {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 10px;
+    }
+}
+
