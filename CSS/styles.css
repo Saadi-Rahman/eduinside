@@ -1,0 +1,18 @@
+
+.eduinside-navbar {
+    background-color: rgb(114, 255, 173);
+}
+
+
+.eduinside-navbar-nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    flex-grow: 1;
+}
+
+
+.eduinside-navbar-nav li {
+    font-size: larger;
+    background-color: rgb(198, 137, 255);
+}
