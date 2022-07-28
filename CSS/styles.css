@@ -1,4 +1,21 @@
 
+/* common utilities  */
+.eduinside-bg-color {
+    background-color: #289BDE;
+}
+
+.eduinside-text-color {
+    color: #289BDE;
+}
+
+.eduinside-btn {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 28px;
+    color: white;
+}
+
+
 /* css for navbar  */
 
 .eduinside-navbar-brand {
@@ -30,7 +47,6 @@
 
 
 /* css for slider */
-
 .carousel-item::before {
     content: "";
     display: block;
@@ -58,7 +74,6 @@
     font-size: 24px;
     font-weight: 600;
     padding: 12px 30px;
-    background-color: #289BDE;
     color: white;
 }
 
