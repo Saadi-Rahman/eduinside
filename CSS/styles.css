@@ -82,14 +82,35 @@
 }
 
 
+#reg-btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.eduinside-reg-sec {
+    padding: 15px 40px;
+}
+
+
 
 
 
 /* ----------- Media query ------------ */
 /* Large devices */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
     .container{
         width: 100%;
+    }
+
+    .eduinside-reg-sec {
+        text-align: center;
+    }
+
+    #reg-btn {
+        justify-content: center;
+        margin-top: 20px;
     }
 
 
@@ -118,6 +139,15 @@
         font-weight: 600;
         padding: 8px 20px;
     }
+
+    .eduinside-reg-sec {
+        text-align: center;
+    }
+
+    #reg-btn {
+        justify-content: center;
+        margin-top: 20px;
+    }
 }
 
 
@@ -145,5 +175,16 @@
         font-weight: 500;
         padding: 5px 10px;
     }
+
+    .eduinside-reg-sec {
+        text-align: center;
+    }
+
+    #reg-btn {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
 }
 
