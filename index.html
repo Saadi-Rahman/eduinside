@@ -26,22 +26,22 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
+                    <a class="nav-link" href="#courses">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Deals</a>
+                    <a class="nav-link" href="#deals">Deals</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Success</a>
+                    <a class="nav-link" href="#success">Success</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#register">Register</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link" href="#trusted-sec">About</a>
                   </li>
                 </ul>
-                <button class="btn btn-outline-info fs-5 fw-semibold px-4 py-2" type="submit">Register</button>
+                <button class="btn btn-outline-primary fs-5 fw-semibold px-4 py-2" type="submit">Register</button>
               </div>
             </div>
           </nav>
@@ -99,7 +99,7 @@
 
     <main>
         <!-- popular courses start  -->
-        <section class="container my-5">
+        <section id="courses" class="container my-5">
             <div class="row text-center d-flex justify-content-center">
                 <div class="col-md-12 col-lg-6">
                     <h2 class="fs-1 fw-bold pt-5 text-center">Discover Our Popular <br> Courses</h2>
@@ -213,7 +213,7 @@
         <!-- popular courses end  -->
 
         <!-- explore section start  -->
-        <section class="container my-5">
+        <section id="deals" class="container my-5">
             <div class="row py-5 g-0">
                 <div class="col-lg-6">
                     <div>
@@ -262,7 +262,7 @@
         <!-- explore section end  -->
 
         <!-- register now start -->
-        <section class="container my-5">
+        <section id="register" class="container my-5">
             <div class="bg-info my-5 p-5 rounded-2">
                 <div class="row eduinside-reg-sec">
                     <div class="col-md-12 col-lg-6">
@@ -271,15 +271,39 @@
                     </div>
     
                     <div class="col-md-12 col-lg-6" id="reg-btn">
-                        <a href="" class="eduinside-btn btn bg-white text-info">Register Now</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="eduinside-btn btn bg-white text-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Register Now
+                    </button>
                     </div>
                 </div>
             </div>
+
+            <!-- modal start  -->
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Eduinside</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Welcome to Eduinside.com. To register please click the Sign up button.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-outline-primary">Sign up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- modal end  -->
         </section>
         <!-- register now end -->
 
         <!-- success student sec start -->
-        <section class="container my-5">
+        <section id="success" class="container my-5">
             <div class="row">
                 <div class="col-md-10 col-lg-7">
                     <h2 class="fs-1 fw-bold pt-5">Meet Our Successful  <br> Students</h2>
